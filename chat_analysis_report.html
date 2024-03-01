@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Analysis Report</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .chart img {max-width: 100%; height: auto; margin-bottom: 20px;}
+        .chart-title {margin-top: 40px;}
+        .chart-description {margin-bottom: 20px; font-style: italic;}
+    </style>
+</head>
+<body>
+<div class="container mt-4">
+    <h1 class="mb-4">Chat Analysis Report</h1>
+    
+            <div class="chart">
+                <h2 class="chart-title">Chat Comparison</h2>
+                <p class="chart-description">Comparison of the number of messages sent by each participant.</p>
+                <img src="charts/chat_comparison.png" class="img-fluid">
+            </div>
+            
+            <div class="chart">
+                <h2 class="chart-title">Daily Chat Frequency</h2>
+                <p class="chart-description">Frequency of chats for each day.</p>
+                <img src="charts/chat_frequency_by_day.png" class="img-fluid">
+            </div>
+            
+            <div class="chart">
+                <h2 class="chart-title">Hourly Chat Frequency</h2>
+                <p class="chart-description">Distribution of chats throughout the day.</p>
+                <img src="charts/chat_frequency_by_hour.png" class="img-fluid">
+            </div>
+            
+            <div class="chart">
+                <h2 class="chart-title">Interaction Patterns</h2>
+                <p class="chart-description">Patterns of how participants interact in the conversation.</p>
+                <img src="charts/interaction_patterns.png" class="img-fluid">
+            </div>
+            
+            <div class="chart">
+                <h2 class="chart-title">Monthly Chat Frequency Comparison</h2>
+                <p class="chart-description">Monthly comparison of the number of messages sent by each participant.</p>
+                <img src="charts/monthly_chat_frequency_comparison.png" class="img-fluid">
+            </div>
+            
+            <div class="chart">
+                <h2 class="chart-title">Monthly Emotional Distribution</h2>
+                <p class="chart-description">Emotional analysis of messages on a monthly basis.</p>
+                <img src="charts/monthly_emotional_distribution_combined.png" class="img-fluid">
+            </div>
+            
+            <div class="chart">
+                <h2 class="chart-title">Weekly Chat Heatmap</h2>
+                <p class="chart-description">Heatmap showing the distribution of chats throughout the week.</p>
+                <img src="charts/weekly_chat_heatmap.png" class="img-fluid">
+            </div>
+            
+            <div class="chart">
+                <h2 class="chart-title">Word Frequency</h2>
+                <p class="chart-description">Most common words used in the conversation.</p>
+                <img src="charts/word_frequency.png" class="img-fluid">
+            </div>
+            
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
